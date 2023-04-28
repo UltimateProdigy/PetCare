@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 40px;
+    background-color: whitesmoke;
+}
+.heading {
+    display: inline-block;
+    margin-right: 250px;
+}
+a {
+    margin-right: 40px;
+    font-weight: 600;
+}
+a:hover {
+    color: #3c0447;
+}
+.schedule {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.top-container {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.intro {
+    margin-right: 700px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.purple-paws {
+    width: 2%;
+}
+.pink-cat {
+    width: 60px;
+    position: absolute;
+    left: 400px;
+    top: 175px;
+}
+h1 {
+    line-height: 30px;
+    font-size: 80px;
+}
+p {
+    width: 50%;
+    padding-bottom: 20px;
+}
+.blue-div {
+    height: 380px;
+    width: 480px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: #337fed;
+    position: absolute;
+    right: 170px;
+    top: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotate(140deg);
+}
+.pet-owner {
+    position: absolute;
+    right: 170px;
+    top: 110px;
+    width: 450px;
+    height: 500px;
+}
+.cover-dog {
+    position: absolute;
+    right: 400px;
+    top: 274px;
+    width: 280px;
+}
+.register-btn {
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:80px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#337fed;
+    font-weight: bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #bbbdc0;
+    text-shadow:inset 0px 1px 0px  #929e9e;
+    background:linear-gradient( #080808,  #111111);
+    padding: 10px 40px;
+    display: inline;
+    margin-left: 190px;
+  }
+.register-btn:hover {
+    background: linear-gradient(#b9b0b9, rgb(231, 205, 226));
+}
+.services-btn {
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:80px;
+    background-image: linear-gradient(to right, #4776E6 0%, #442e68 51%, #4776E6 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgb(26, 23, 23);
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: inline; 
+  }
+.services-btn:hover {
+    background: linear-gradient(#b9b0b9, rgb(231, 205, 226));
+    background-position: right center;/* change the direction of the image here*/ color: #fff;
+    text-decoration: none;
+}
+.paw-1 {
+position: absolute;
+right: 700px;
+width: 50px;
+top: 150px;
+transform: rotate(260deg);
+}
+.paw-2 {
+position: absolute;
+right: 200px;
+width: 50px;
+top: 150px;
+transform: rotate(20deg);
+}
+.paw-3 {
+position: absolute;
+right: 120px;
+width: 50px;
+top: 300px;
+transform: rotate(160deg);
+}
+.paw-4 {
+position: absolute;
+right: 650px;
+top: 300px;
+width: 50px;
+transform: rotate(90deg);
+}
+.paw-5 {
+position: absolute;
+right: 120px;
+width: 50px;
+top: 500px;
+transform: rotate(50deg);
+}
+.paw-6 {
+position: absolute;
+right: 700px;
+width: 50px;
+transform: rotate(220deg);
+}
+.rating-number {
+font-size: 40px;
+margin-bottom: 20px;
+}
+.rating-hr {
+    margin-right: 830px;
+    border-top: #3a3a3a solid;
+}
+.rating-words {
+    width: 30%;
+}
+.community {
+    background-color: yellow;
+   margin-right: 60px;
+    height: 150px;
+    border-radius: 40px;
+    margin-left: 60px;
+    float: left;
+    padding-right: 65px;
+}
+.white-background {
+    position: absolute; 
+    background-color: white;
+    right: 310px;   
+    top: 520px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 20px rgb(134, 131, 131);
+}
+.yellow-dog {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 100px;
+    height: 120px;
+    right: 335px;
+    top: 500px;
+}
+.dogcare {
+    width: 60%;
+   padding-left: 25px;
+   padding-top: 80px;
+   
+}
+.play-button {
+    position: absolute;
+    width: 2%;
+    right: 320px;
+    top: 550px;
+}
+.man-1 {
+    position: absolute;
+    width: 3%;
+    top: 585px;
+    left: 50px;
+}
+.man-2 {
+    position: absolute;
+    width: 3%;
+    top: 585px;
+    left: 80px;
+}
+.man-3 {
+    position: absolute;
+    width: 3%;
+    top: 585px;
+    left: 110px;
+}
+.man-4 {
+    position: absolute;
+    width: 3%;
+    top: 585px;
+    left: 140px;
+}
+.man-5 {
+    position: absolute;
+    width: 3%;
+    top: 585px;
+    left: 170px;
+}
+.profile-card {
+    background-color: white;
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 0 10px 20px 10px rgb(134, 131, 131);
+    margin-bottom: 50px;
+   
+}
+.card-man {
+    width: 50%;
+    margin-left: 20px;
+}
+#card-name {
+    text-align: center;
+}
+.email {
+    line-height: 0px;
+    margin-left: 25px;
+}
+.see-review {
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(to right, #4776E6 0%, #442e68 51%, #4776E6 100%);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px 0 0 8px;
+    position: absolute;
+    left: 95px;
+    top: 910px;
+}
+.review {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 15px;
+}
+.last-petcare {
+    background-color: #080808;
+    height: 170px;
+    width: 300px;
+    color: white;
+    border-radius: 0px 30px 0px 0px;
+    text-align: center;
+    padding-top: 70px;
+    position: absolute;
+    right: 70px;
+    top: 760px;
+    margin-left: 100px;
+
+}
+.last-intro {
+    display: inline;
+}
+.last-paw{
+    width: 20px;
+    display: inline-block;
+}
+.second-black {
+    background-color: #080808;
+    position: absolute;
+    right: 300px;
+    height: 240px;
+    width: 50px;
+    top: 0px;
+}
+.purple-div {
+    height: 240px;
+    width: 650px;
+    background-color: #3c0447;
+    position: absolute;
+    right: 370px;
+    top: 760px;
+    border-radius: 30px 30px 30px 0;
+    color: white;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 10px;
+    padding-top: 12px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg) ;
+}
+.arrow-up {
+    background-color: white;
+    height: 48px;
+    width: 40px;
+    position: absolute;
+    left: 215px;
+    top: 910px;
+    border-radius: 0 5px 5px 0;
+}
+.cutecat {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 0;
+}
+.superdog1 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    line-height: 0;
+}
+.superdog2 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    line-height: 0;
+}
